@@ -76,7 +76,7 @@ The complete business intelligence report is available in PDF format in this rep
 ---
 
 ## 📬 Contact
-Gülay Keske Aksoy  
+Gulay Keske Aksoy  
 LinkedIn: 
 GitHub: https://github.com/Gulaksoy  
 
