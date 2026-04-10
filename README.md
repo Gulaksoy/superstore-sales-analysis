@@ -61,13 +61,26 @@ superstore-sales-analysis/
 └── images/                                    # Visuals 
 
 ---
+📊 Visuals
+
+Sales by Category
+![Category Sales](images/category_sales.png)
+
+Profit by Category
+![Category Profit](images/category_profit.png)
+
+Sales by Region
+![Region Sales](images/region_sales.png)
+
+Sales by Segment
+![Segment Sales](images/segment_sales.png)
 
  📄 Full Report
 The complete business intelligence report is available in PDF format in this repository.
 
 ---
 
-## ▶️ How to Run the Notebook
+▶️ How to Run the Notebook
 1. Download the `.ipynb` file  
 2. Upload to Kaggle or open in Jupyter Notebook  
 3. Ensure dataset path is correct  
@@ -75,7 +88,7 @@ The complete business intelligence report is available in PDF format in this rep
 
 ---
 
-## 📬 Contact
+📬 Contact
 Gulay Keske Aksoy  
 LinkedIn: 
 GitHub: https://github.com/Gulaksoy  
