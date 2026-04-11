@@ -72,12 +72,13 @@ superstore-sales-analysis/
 📄 Reports
 
 1. Quick Report (PDF)
-High-level summary with charts and key metrics.  
-[Download Quick Report](Superstore%20Sales%20%26%20Profit%20Analysis%20PDF.pdf)
+High-level summary with charts and key metrics.
+(Superstore%20Sales%20%26%20Profit%20Analysis%20PDF.pdf)
 
-2. Full Analysis Report (PDF)
+3. Full Analysis Report (PDF)
 Executive summary, insights, and strategic recommendations.  
-[Download Full Report](docs/Full_Superstore_Analysis_Report.pdf)
+[Superstore Full Analysis Report.pdf](https://github.com/user-attachments/files/26648351/Superstore.Full.Analysis.Report.pdf)
+
 
 
 ---
