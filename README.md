@@ -78,6 +78,10 @@ Sales by Segment
  📄 Full Report
 The complete business intelligence report is available in PDF format in this repository.
 
+## 📄 Project Report (PDF)
+You can view the full Excel Pivot Table analysis here:  
+[Superstore Sales & Profit Analysis (PDF)](Superstore%20Sales%20%26%20Profit%20Analysis%20PDF.pdf)
+
 ---
 
 ▶️ How to Run the Notebook
