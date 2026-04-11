@@ -69,9 +69,16 @@ superstore-sales-analysis/
 ![Segment Distribution](images/segment.png)
 
 
-## 📄 Project Report (PDF)
-You can view the full Excel Pivot Table analysis here:  
-[Superstore Sales & Profit Analysis (PDF)](Superstore%20Sales%20%26%20Profit%20Analysis%20PDF.pdf)
+📄 Reports
+
+1. Quick Report (PDF)
+High-level summary with charts and key metrics.  
+[Download Quick Report](Superstore%20Sales%20%26%20Profit%20Analysis%20PDF.pdf)
+
+2. Full Analysis Report (PDF)
+Executive summary, insights, and strategic recommendations.  
+[Download Full Report](docs/Full_Superstore_Analysis_Report.pdf)
+
 
 ---
 
