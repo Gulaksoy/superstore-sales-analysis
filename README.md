@@ -63,20 +63,11 @@ superstore-sales-analysis/
 ---
 📊 Visuals
 
-Sales by Category
-![Category Sales](images/category_sales.png)
+![Category Sales](images/category_sale.png)
+![Profit](images/profit.png)
+![Region Sales](images/region_sale.png)
+![Segment Distribution](images/segment.png)
 
-Profit by Category
-![Category Profit](images/category_profit.png)
-
-Sales by Region
-![Region Sales](images/region_sales.png)
-
-Sales by Segment
-![Segment Sales](images/segment_sales.png)
-
- 📄 Full Report
-The complete business intelligence report is available in PDF format in this repository.
 
 ## 📄 Project Report (PDF)
 You can view the full Excel Pivot Table analysis here:  
