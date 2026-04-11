@@ -73,7 +73,7 @@ superstore-sales-analysis/
 
 1. Quick Report (PDF)
 High-level summary with charts and key metrics.
-[Sample_Superstore_Analysis_GulayKeske.pdf.pdf](https://github.com/user-attachments/files/26648377/Sample_Superstore_Analysis_GulayKeske.pdf.pdf)
+Superstore%20Sales%20%26%20Profit%20Analysis%20PDF.pdf
 
 
 3. Full Analysis Report (PDF)
