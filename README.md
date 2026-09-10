@@ -1,101 +1,93 @@
-Superstore Sales & Profit Analysis  
-Business Intelligence Project | Python · Kaggle · Google Sheets · GitHub
+Superstore Sales & Profit Analysis
+Business Intelligence Project | Python · Kaggle · GitHub
 
-📊 Project Overview
-This project analyzes sales, profit, customer segments, and regional performance using the Superstore dataset.  
+## 📊 Project Overview
+This project analyzes sales, profit, customer segments, and regional performance using the Superstore dataset.
 The goal is to identify margin leakage, regional opportunities, and actionable business insights supported by data visualization.
 
 The analysis includes:
-- Category-level sales & profitability
+
+- Category-level sales & profitability, broken down to sub-category
 - Regional performance comparison
 - Customer segment behavior
-- Discount impact on profitability
+- Discount impact on profitability (tested directly via correlation, not assumed)
 - Actionable recommendations for business improvement
 
 ---
 
-🚀 Key Insights
-- **Technology** is the most profitable category with strong margins.  
-- **Furniture** generates high sales but operates at a loss → requires pricing & cost review.  
-- **East** region leads in sales; **South** region underperforms.  
-- **Consumer** segment is the primary revenue driver.  
-- Overall profitability is **negative** due to aggressive discounting and low-margin categories.
+## 🚀 Key Insights
+
+- **Technology** (~17.4% margin) and **Office Supplies** (~17.0% margin) are the most profitable categories, with strong and comparable margins.
+- **Furniture** generates sales comparable to the other two categories (~$742K) but converts to only **~2.5% margin** — a pricing/cost issue concentrated almost entirely in two sub-categories: **Tables** (net loss) and **Bookcases** (thin margin). The rest of Furniture (Chairs, Furnishings) is healthy.
+- Overall profitability is **positive** (~$286K on ~$2.30M sales, ~12.5% blended margin).
+- Discount and profit are **negatively correlated** (r = -0.22); profitability drops sharply for orders discounted above ~30%.
+- **West** region leads in total sales (~$725K), followed by East (~$679K). **South** is the weakest region overall. **Central** underperforms on profit relative to its sales rank, a pattern worth further investigation.
+- **Consumer** segment is the primary revenue driver by a wide margin.
 
 ---
 
-📈 Visuals Included
-- Sales by Category  
-- Profit by Category  
-- Sales by Region  
-- Sales by Segment  
+## 📈 Visuals Included
+
+- Sales, Profit & Margin by Category
+- Profit by Sub-Category
+- Discount vs. Profit
+- Sales & Profit by Region
+- Sales by Segment
 
 All visualizations were created using **Matplotlib** and **Seaborn**.
 
 ---
 
-🧠 Methodology
-1. Data cleaning & preprocessing  
-2. Exploratory data analysis (EDA)  
-3. Group-by aggregations for category, region, and segment  
-4. Visualization of key metrics  
-5. Business interpretation of results  
-6. Actionable recommendations  
+## 🧠 Methodology
+
+1. Data loading & quality checks (missing values, duplicates, outliers)
+2. Category-level sales, profit, and margin analysis
+3. Sub-category breakdown to isolate where margin issues concentrate
+4. Discount → profit relationship (correlation + scatter, not assumed)
+5. Regional and segment performance comparison
+6. Business interpretation and actionable recommendations
 
 ---
 
- 🛠 Tools & Technologies
-- **Python** (Pandas, Matplotlib, Seaborn)  
-- **Kaggle Notebook**  
-- **Google Sheets**  
-- **GitHub**  
-- **Jupyter Notebook**  
+## 🛠 Tools & Technologies
+
+- **Python** (Pandas, Matplotlib, Seaborn)
+- **Kaggle Notebook**
+- **GitHub**
+- **Jupyter Notebook**
 
 ---
 
-📁 Repository Structure
+## 📁 Repository Structure
+```
 superstore-sales-analysis/
 │
-├── Superstore Sales & Profit Analysis.pdf     # Full BI report
-├── superstore_analysis.ipynb                  # Kaggle notebook
-├── README.md                                  # Project documentation
-└── images/                                    # Visuals 
-
----
-📊 Visuals
-
-![Category Sales](images/category_sale.png)
-![Profit](images/profit.png)
-![Region Sales](images/region_sale.png)
-![Segment Distribution](images/segment.png)
-
-
-📄 Reports
-
-1. Quick Report (PDF)
-High-level summary with charts and key metrics.
-[Superstore Sales & Profit Analysis.pdf](https://github.com/user-attachments/files/26648410/Superstore.Sales.Profit.Analysis.pdf)
-
-
-
-3. Full Analysis Report (PDF)
-Executive summary, insights, and strategic recommendations.  
-[Superstore Full Analysis Report.pdf](https://github.com/user-attachments/files/26648351/Superstore.Full.Analysis.Report.pdf)
-
-
+├── superstore-analysis.ipynb   # Kaggle/Jupyter notebook
+├── README.md                   # Project documentation
+└── images/                     # Visuals
+```
 
 ---
 
-▶️ How to Run the Notebook
-1. Download the `.ipynb` file  
-2. Upload to Kaggle or open in Jupyter Notebook  
-3. Ensure dataset path is correct  
-4. Run all cells sequentially  
+## 📊 Visuals
+
+![Category Sales, Profit & Margin](images/category_sales_profit_margin.png)
+![Profit by Sub-Category](images/subcategory_profit.png)
+![Discount vs Profit](images/discount_vs_profit.png)
+![Sales & Profit by Region](images/region_sales_profit.png)
+![Sales by Segment](images/segment_sales.png)
 
 ---
 
-📬 Contact
-Gulay Keske Aksoy  
-LinkedIn: 
-GitHub: https://github.com/Gulaksoy  
+## ▶️ How to Run the Notebook
+
+1. Download the `.ipynb` file
+2. Upload to Kaggle (add the `bravehart101/sample-supermarket-dataset` dataset as input) or open in Jupyter Notebook with a local copy of `SampleSuperstore.csv`
+3. Run all cells sequentially
 
 ---
+
+## 📬 Contact
+Gulay Keske Aksoy
+GitHub: <https://github.com/Gulaksoy>
+
