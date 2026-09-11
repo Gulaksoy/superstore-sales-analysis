@@ -18,7 +18,7 @@ The analysis includes:
 ## 🚀 Key Insights
 
 - **Technology** (~17.4% margin) and **Office Supplies** (~17.0% margin) are the most profitable categories, with strong and comparable margins.
-- **Furniture** generates sales comparable to the other two categories (~$742K) but converts to only **~2.5% margin** — a pricing/cost issue concentrated almost entirely in two sub-categories: **Tables** (net loss) and **Bookcases** (thin margin). The rest of Furniture (Chairs, Furnishings) is healthy.
+- **Furniture** generates sales comparable to the other two categories (~$742K) but converts to only **~2.5% margin** — a pricing/cost issue concentrated in three sub-categories: **Tables** (net loss), **Bookcases**, and **Supplies** (both smaller losses). The rest of Furniture (Chairs, Furnishings) is healthy.
 - Overall profitability is **positive** (~$286K on ~$2.30M sales, ~12.5% blended margin).
 - Discount and profit are **negatively correlated** (r = -0.22); profitability drops sharply for orders discounted above ~30%.
 - **West** region leads in total sales (~$725K), followed by East (~$679K). **South** is the weakest region overall. **Central** underperforms on profit relative to its sales rank, a pattern worth further investigation.
