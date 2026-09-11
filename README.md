@@ -79,6 +79,12 @@ superstore-sales-analysis/
 
 ---
 
+## 📄 Report
+
+A standalone PDF summary is available: [superstore-report.pdf](superstore-report.pdf) — executive summary, all charts, and actionable recommendations in one document.
+
+---
+
 ## ▶️ How to Run the Notebook
 
 1. Download the `.ipynb` file
