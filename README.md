@@ -83,6 +83,8 @@ superstore-sales-analysis/
 
 A standalone PDF summary is available: [superstore-report.pdf](superstore-report.pdf) — executive summary, all charts, and actionable recommendations in one document.
 
+An appendix with the raw pivot tables behind every number in the report is available at [docs/appendix-pivot-tables.pdf](docs/appendix-pivot-tables.pdf).
+
 ---
 
 ## ▶️ How to Run the Notebook
